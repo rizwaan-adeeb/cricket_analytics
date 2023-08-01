@@ -8,4 +8,6 @@ Uses data from 1024 IPL matches, taken from: https://cricsheet.org/matches/
 
 `plot_rpo.py` calculates the run rate for each over in the innings and plots it.
 
+`plot_balls_faced.py` calculates the average number of balls faced per batting position and plots it
+
 The json files for each match are saved in the `data/ipl_json/` directory. All plots are saved in the `plots/` directory.
