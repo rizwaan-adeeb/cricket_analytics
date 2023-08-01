@@ -10,7 +10,7 @@ plt.rcParams['font.size'] = 18
 plt.rcParams['text.usetex'] = True
 
 # Get file names
-directory = Path("/Users/Rizwaan/Documents/cricket_analytics/data/ipl_json")
+directory = Path("/Users/Rizwaan/Documents/cricket_analytics/cricket_analytics/data/ipl_json")
 file_names = [f for f in directory.iterdir() if f.name != "README.txt"]
 
 # Dicts for over and runs
