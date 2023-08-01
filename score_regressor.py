@@ -119,7 +119,7 @@ if __name__ == "__main__":
     do_grid_search = False
 
     # Get file names
-    directory = Path("/Users/Rizwaan/Documents/cricket_analytics/data/ipl_json")
+    directory = Path("/Users/Rizwaan/Documents/cricket_analytics/cricket_analytics/data/ipl_json")
     file_names = [f for f in directory.iterdir() if f.name != "README.txt"]
 
     df = process_data(file_names)
