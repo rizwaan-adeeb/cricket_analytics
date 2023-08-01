@@ -67,5 +67,7 @@ plt.xlabel("Batting position")
 plt.ylabel("Average balls faced")
 plt.yticks(np.arange(0, 24, step=2))
 plt.tight_layout()
-plt.show()
+#plt.show()
+plt.savefig("plots/balls_faced.pdf")
+plt.close()
 
