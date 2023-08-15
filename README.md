@@ -11,3 +11,10 @@ Uses data from 1024 IPL matches, taken from: https://cricsheet.org/matches/
 `plot_balls_faced.py` calculates the average number of balls faced per batting position and plots it
 
 The json files for each match are saved in the `data/ipl_json/` directory. All plots are saved in the `plots/` directory.
+
+## Required packages
+ - numpy v1.24.3
+ - pandas v1.5.3
+ - scikit-learn v1.3.0
+ - xgboost v1.7.6
+ - matplotlib v3.7.1
